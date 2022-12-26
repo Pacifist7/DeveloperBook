@@ -1,0 +1,17 @@
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\DeveloperBook.DataAccess.csproj.AssemblyReference.cache
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\DeveloperBook.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\DeveloperBook.DataAccess.AssemblyInfoInputs.cache
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\DeveloperBook.DataAccess.AssemblyInfo.cs
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\DeveloperBook.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\bin\Debug\net6.0\DeveloperBook.DataAccess.deps.json
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\bin\Debug\net6.0\DeveloperBook.DataAccess.runtimeconfig.json
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\bin\Debug\net6.0\DeveloperBook.DataAccess.dll
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\bin\Debug\net6.0\DeveloperBook.DataAccess.pdb
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\bin\Debug\net6.0\DeveloperBook.Models.dll
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\bin\Debug\net6.0\DeveloperBook.Models.pdb
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\DeveloperBook.DataAccess.csproj.CopyComplete
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\DeveloperBook.DataAccess.dll
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\refint\DeveloperBook.DataAccess.dll
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\DeveloperBook.DataAccess.pdb
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\DeveloperBook.DataAccess.genruntimeconfig.cache
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.DataAccess\obj\Debug\net6.0\ref\DeveloperBook.DataAccess.dll

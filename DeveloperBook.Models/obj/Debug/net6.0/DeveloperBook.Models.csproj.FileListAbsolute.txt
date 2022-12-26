@@ -1,0 +1,12 @@
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\bin\Debug\net6.0\DeveloperBook.Models.deps.json
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\bin\Debug\net6.0\DeveloperBook.Models.dll
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\bin\Debug\net6.0\DeveloperBook.Models.pdb
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\obj\Debug\net6.0\DeveloperBook.Models.csproj.AssemblyReference.cache
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\obj\Debug\net6.0\DeveloperBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\obj\Debug\net6.0\DeveloperBook.Models.AssemblyInfoInputs.cache
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\obj\Debug\net6.0\DeveloperBook.Models.AssemblyInfo.cs
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\obj\Debug\net6.0\DeveloperBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\obj\Debug\net6.0\DeveloperBook.Models.dll
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\obj\Debug\net6.0\refint\DeveloperBook.Models.dll
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\obj\Debug\net6.0\DeveloperBook.Models.pdb
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Models\obj\Debug\net6.0\ref\DeveloperBook.Models.dll

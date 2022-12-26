@@ -1,0 +1,12 @@
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\bin\Debug\net6.0\DeveloperBook.Utility.deps.json
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\bin\Debug\net6.0\DeveloperBook.Utility.dll
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\bin\Debug\net6.0\DeveloperBook.Utility.pdb
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\obj\Debug\net6.0\DeveloperBook.Utility.csproj.AssemblyReference.cache
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\obj\Debug\net6.0\DeveloperBook.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\obj\Debug\net6.0\DeveloperBook.Utility.AssemblyInfoInputs.cache
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\obj\Debug\net6.0\DeveloperBook.Utility.AssemblyInfo.cs
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\obj\Debug\net6.0\DeveloperBook.Utility.csproj.CoreCompileInputs.cache
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\obj\Debug\net6.0\DeveloperBook.Utility.dll
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\obj\Debug\net6.0\refint\DeveloperBook.Utility.dll
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\obj\Debug\net6.0\DeveloperBook.Utility.pdb
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBook.Utility\obj\Debug\net6.0\ref\DeveloperBook.Utility.dll
