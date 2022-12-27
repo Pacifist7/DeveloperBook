@@ -9,7 +9,7 @@ namespace DeveloperBook.DataAccess.Repository.IRepository
 	public interface IUnitOfWork
 	{
 		ICategoryRepository Category { get; }
-		ICategoryRepository CoverType { get; }
+		ICoverTypeRepository CoverType { get; }
 
 
 		void Save();

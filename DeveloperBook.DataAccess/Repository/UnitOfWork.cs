@@ -20,11 +20,11 @@ namespace DeveloperBook.DataAccess.Repository
 
 		public ICoverTypeRepository CoverType { get; private set; }
 
-		//ICategoryRepository IUnitOfWork.CoverType => throw new NotImplementedException();
-
 		public void Save()
 		{
 			_db.SaveChanges();
 		}
 	}
 }
+
+
