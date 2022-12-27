@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DeveloperBook.DataAccess.Repository
 {
-	public class CategoryRepository : Repository<Category> , ICategoryRepository
+	public class CategoryRepository : Repository<Category>, ICategoryRepository
 	{
 		private ApplicationDbContext _db;
 		public CategoryRepository(ApplicationDbContext db) : base(db)
@@ -16,14 +16,24 @@ namespace DeveloperBook.DataAccess.Repository
 			_db = db;
 		}
 
-		public void Save()
-		{
-			_db.SaveChanges();
-		}
+        public void Add(CoverType obj)
+        {
+            throw new NotImplementedException();
+        }
 
-		public void Update(Category obj)
+        public void Save()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Category obj)
 		{
 			_db.Categories.Update(obj);
 		}
-	}
+
+        public void Update(CoverType obj)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

@@ -2,21 +2,30 @@
 using DeveloperBook.DataAccess.Repository.IRepository;
 using DeveloperBook.Models;
 using Microsoft.AspNetCore.Mvc;
+//using DeveloperBook.Utility;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace DeveloperBookWeb.Controllers
+
+namespace DeveloperBookWeb.Areas.Admin.Controllers
 {
-    public class CategoryController : Controller
+    //Before .NET 6
+	//[Area("Admin")]
+	//[Authorize(Roles = SD.Role_Admin)]
+	public class CategoryController : Controller
     {
-        private readonly ICategoryRepository _db;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(ICategoryRepository db)
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Category> objCategoryList = _db.GetAll();
+            IEnumerable<Category> objCategoryList = _unitOfWork.Category.GetAll();
             return View(objCategoryList);
         }
 
@@ -38,8 +47,8 @@ namespace DeveloperBookWeb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Add(obj);
-                _db.Save();
+                _unitOfWork.Category.Add(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
@@ -56,7 +65,7 @@ namespace DeveloperBookWeb.Controllers
             }
 
             //var categoryfromDb = _db.Categories.Find(id);
-            var categoryFromDbFirst = _db.GetFirstOrDefault(c => c.Id == id);
+            var categoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(c => c.Id == id);
             //var categoryFromDbSingle = _db.Categories.SingleOrDefault(c => c.Id == id);
 
             if (categoryFromDbFirst == null)
@@ -78,10 +87,10 @@ namespace DeveloperBookWeb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Update(obj);
-                _db.Save();
+                _unitOfWork.Category.Update(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category updated successfully";
-                return RedirectToAction("Index"); 
+                return RedirectToAction("Index");
             }
             return View(obj);
         }
@@ -96,7 +105,7 @@ namespace DeveloperBookWeb.Controllers
             }
 
             //var categoryfromDb = _db.Categories.Find(id);
-            var categoryFromDbFirst = _db.GetFirstOrDefault(c => c.Id == id);
+            var categoryFromDbFirst = _unitOfWork.Category.GetFirstOrDefault(c => c.Id == id);
             //var categoryFromDbSingle = _db.Categories.SingleOrDefault(c => c.Id == id);
 
             if (categoryFromDbFirst == null)
@@ -108,20 +117,20 @@ namespace DeveloperBookWeb.Controllers
         }
 
         //POST
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("DeletePOST")]
         [ValidateAntiForgeryToken]
         public IActionResult DeletePOST(int? id)
         {
-            var obj = _db.GetFirstOrDefault(c => c.Id == id);
+            var obj = _unitOfWork.Category.GetFirstOrDefault(c => c.Id == id);
             if (obj == null)
             {
                 return NotFound();
             }
-            _db.Remove(obj);
-            _db.Save();
+            _unitOfWork.Category.Remove(obj);
+            _unitOfWork.Save();
             TempData["success"] = "Category deleted successfully";
             return RedirectToAction("Index");
-        }  
-        
+        }
+
     }
 }

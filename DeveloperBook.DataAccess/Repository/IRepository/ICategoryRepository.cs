@@ -11,5 +11,7 @@ namespace DeveloperBook.DataAccess.Repository.IRepository
     {
         void Update(Category obj);
         void Save();
-    }
+		void Add(CoverType obj);
+		void Update(CoverType obj);
+	}
 }

@@ -1118,3 +1118,4 @@ C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBookWeb\bin\D
 C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBookWeb\bin\Debug\net6.0\DeveloperBook.Models.dll
 C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBookWeb\bin\Debug\net6.0\DeveloperBook.DataAccess.pdb
 C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBookWeb\bin\Debug\net6.0\DeveloperBook.Models.pdb
+C:\Users\anass.elguermai\Desktop\. NET\DeveloperBook-main\DeveloperBookWeb\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
