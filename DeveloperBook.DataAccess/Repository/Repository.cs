@@ -57,9 +57,9 @@ namespace DeveloperBook.DataAccess.Repository
             dbSet.Remove(entity);
         }
 
-        public void RemoveRange(IEnumerable<T> entitiy)
+        public void RemoveRange(IEnumerable<T> entity)
         {
-            dbSet.RemoveRange(entitiy);
+            dbSet.RemoveRange(entity);
         }
     }
 }
