@@ -24,13 +24,13 @@ namespace DeveloperBook.Models
         public double listPrice { get; set; }
         [Required]
         [Range(0, 10000)]
-        public double price { get; set; }
+        public double Price { get; set; }
         [Required]
         [Range(0, 10000)]
-        public double price50 { get; set; }
+        public double Price50 { get; set; }
         [Required]
         [Range(0, 10000)]
-        public double price100 { get; set; }
+        public double Price100 { get; set; }
         public string ImageUrl { get; set; }
         [Required]
         public int CategoryId { get; set; }         //Foreign Key
