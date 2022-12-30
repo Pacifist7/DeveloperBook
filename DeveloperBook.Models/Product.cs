@@ -20,23 +20,25 @@ namespace DeveloperBook.Models
         [Required]
         public string Author { get;set; }
         [Required]
-        [Range(0, 10000)]
+        [Range(1, 10000)]
         public double listPrice { get; set; }
         [Required]
-        [Range(0, 10000)]
+        [Range(1, 10000)]
         public double Price { get; set; }
         [Required]
-        [Range(0, 10000)]
+        [Range(1, 10000)]
         public double Price50 { get; set; }
         [Required]
-        [Range(0, 10000)]
+        [Range(1, 10000)]
         public double Price100 { get; set; }
         public string ImageUrl { get; set; }
         [Required]
+        [Display(Name ="Category")]
         public int CategoryId { get; set; }         //Foreign Key
         //[ForeignKey("CategoryID")]
         public Category Category { get; set; }
         [Required]
+        [Display(Name ="Cover Type")]
         public int CoverTypeId { get; set; }         //Foreign Key
         public CoverType CoverType { get; set; }
     }
