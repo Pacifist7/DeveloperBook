@@ -57,8 +57,7 @@
 
         <div class="mb-3">
             <label asp-for="Product.ImageUrl"></label>
-            <input type="file" id="uploadBox" class="form-control"/>
-            <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+            <input type="file" id="uploadBox" name="file" class="form-control"/>
         </div>
             
         <div class="mb-3 col-6">
@@ -87,10 +86,29 @@
                 <button type="submit" onclick="return ValidateInput()" class="btn btn-primary" style="width:150px">Create</button>
 
             }
-            <a asp-controller="CoverType" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            <a asp-controller="Product" asp-action="Index" class="btn btn-secondary" style="width:150px">
             Back to List
         </a>
         </div>
 
     </div>
 </form>
+
+@section scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+    <script>
+        function ValidateInput(){
+            if(document.getElementById("uploadBox").value=""){
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Please make sure to upload an image!',
+                });
+                return false;
+            }
+            return true;
+        }
+    </script>
+}
