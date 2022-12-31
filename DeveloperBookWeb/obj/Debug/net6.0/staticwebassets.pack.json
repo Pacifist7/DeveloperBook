@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\images\\products\\1d11b07a-082c-4408-8f76-1406c3e0269c.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\1d11b07a-082c-4408-8f76-1406c3e0269c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
