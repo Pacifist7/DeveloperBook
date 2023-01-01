@@ -144,14 +144,14 @@ namespace DeveloperBookWeb.Areas.Admin.Controllers
 
         //POST
         //[HttpDelete, ActionName("DeletePOST")]
-        [HttpDelete]
         //[ValidateAntiForgeryToken]
+        [HttpDelete]
         public IActionResult Delete(int? id)
         {
             var obj = _unitOfWork.Product.GetFirstOrDefault(c => c.Id == id);
             if (obj == null)
             {
-                return Json(new {success=false, message="Error while deleting"});
+                return Json(new {success=false, message= "Error while deleting"});
             }
 
             var oldImagePath = Path.Combine(_hostEnvironment.WebRootPath, obj.ImageUrl.TrimStart('\\'));
