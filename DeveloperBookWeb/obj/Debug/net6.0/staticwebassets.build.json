@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yXVUPCO6URGnfYKVA4VBI/huivxdWSy1rLw/VrgWQNo=",
+  "Hash": "SFG4rkVKf/erv56//HfA2w1wf0Glg97DygByNM7RAJA=",
   "Source": "DeveloperBookWeb",
   "BasePath": "_content/DeveloperBookWeb",
   "Mode": "Default",
@@ -153,6 +153,40 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\1d11b07a-082c-4408-8f76-1406c3e0269c.jpg"
     },
     {
+      "Identity": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\images\\products\\2bd7ed4a-ba08-4382-aff6-60480fc0bc1f.png",
+      "SourceId": "DeveloperBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\",
+      "BasePath": "_content/DeveloperBookWeb",
+      "RelativePath": "images/products/2bd7ed4a-ba08-4382-aff6-60480fc0bc1f.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\2bd7ed4a-ba08-4382-aff6-60480fc0bc1f.png"
+    },
+    {
+      "Identity": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\images\\products\\48261c26-5cdb-4542-af26-916005432693.png",
+      "SourceId": "DeveloperBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\",
+      "BasePath": "_content/DeveloperBookWeb",
+      "RelativePath": "images/products/48261c26-5cdb-4542-af26-916005432693.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\48261c26-5cdb-4542-af26-916005432693.png"
+    },
+    {
       "Identity": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\images\\products\\77405092-8ca9-4483-b369-f38b8a349728.png",
       "SourceId": "DeveloperBookWeb",
       "SourceType": "Discovered",
@@ -185,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\dc9113d0-43af-4f31-827e-db505bc891ea.png"
+    },
+    {
+      "Identity": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\images\\products\\fd54317e-6d18-4e84-ab1c-8401156a70f9.png",
+      "SourceId": "DeveloperBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\",
+      "BasePath": "_content/DeveloperBookWeb",
+      "RelativePath": "images/products/fd54317e-6d18-4e84-ab1c-8401156a70f9.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\fd54317e-6d18-4e84-ab1c-8401156a70f9.png"
     },
     {
       "Identity": "C:\\Users\\anass.elguermai\\Desktop\\. NET\\DeveloperBook-main\\DeveloperBookWeb\\wwwroot\\js\\product.js",
